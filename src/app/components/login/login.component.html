@@ -1,0 +1,16 @@
+ 
+<div class=" Login">
+
+    <h1 class="h1">Faça Login</h1>
+    
+    <input type="email" name="email" placeholder="Insira seu E-mail" id="email" [(ngModel)]="email" required>
+    
+    
+    <div class="senha">
+        <input type="password" placeholder="Insira sua Senha" [(ngModel)]="senha" required name="senha" #senhaInput>
+        <button class="btsenha" (click)="togglePasswordVisibility(senhaInput)">👁️</button>
+      </div>
+      
+    
+    <button class="continuar">Continuar</button>
+    </div>

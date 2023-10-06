@@ -1,0 +1,25 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Certifique-se de que a altura do .footer-content ocupe toda a altura do .footer */
+  }
+  
+  .centered-text {
+    margin: 0; /* Remova as margens padrão do <p> */
+    text-align: center; /* Centralize o texto horizontalmente */
+  }
+  

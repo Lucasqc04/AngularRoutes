@@ -1,0 +1,50 @@
+#nome, #email, input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-right: 20px;
+}
+
+input {
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Cadastro {
+    margin-left: 45%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 20px;
+    width: 270px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: inset;
+}
+
+/* Estilos do botão continuar, :hover e :active permanecem iguais */
+
+.continuar {
+    background-color: red;
+    color: aliceblue;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.continuar:hover {
+    background-color: #cc0000; /* Vermelho ligeiramente mais escuro ao passar o mouse */
+}
+
+/* Estilos do botão quando clicado */
+.continuar:active {
+    background-color: #aa0000; /* Vermelho mais escuro quando clicado */
+}

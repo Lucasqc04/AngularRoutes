@@ -1,0 +1,71 @@
+#email {
+    display: block; /* Define a div como um bloco */
+    margin-bottom: 10px; /* Adiciona espaço entre os elementos */
+   margin-left: 25px;
+    margin-right: 25px;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  }
+  
+  input{
+  
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+  
+  .Login{
+  
+    margin-left: 45%;
+ margin-top: 200px;
+ margin-bottom: 200px;
+    border-radius: 20px;
+   width: 270px; /* Defina a largura da div externa conforme necessário */
+  text-align: center;
+ 
+   background-color: rgb(255, 255, 255); /* Cor de fundo */
+   border-color: black;
+   border-style:inset;
+           
+  }
+  
+  .continuar{
+  
+   background-color: red;
+   color: aliceblue;
+  margin-bottom: 15px;
+  margin-top: 15px;
+   border: none; /* Sem borda */
+  border-radius: 20px; /* Borda arredondada */
+  padding: 10px 20px; /* Espaçamento interno */
+  cursor: pointer; /* Cursor ao passar o mouse */
+   transition: background-color 0.3s; /* Transição suave da cor de fundo */
+  
+  }
+  
+   .continuar:hover {
+              background-color: #cc0000; /* Vermelho ligeiramente mais escuro ao passar o mouse */
+          }
+  
+          /* Estilos do botão quando clicado */
+          .continuar:active {
+              background-color: #aa0000; /* Vermelho mais escuro quando clicado */
+          }
+  
+  .h1{
+  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: inline-block;
+  
+  }
+   
+   .btsenha{
+   
+     border-radius: 20px;
+     border: none;
+     background-color: rgb(255, 255, 255);
+     cursor: pointer;
+   }
+   
